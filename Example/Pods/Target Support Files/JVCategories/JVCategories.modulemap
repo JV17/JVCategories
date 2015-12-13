@@ -1,0 +1,6 @@
+framework module JVCategories {
+  umbrella header "JVCategories-umbrella.h"
+
+  export *
+  module * { export * }
+}

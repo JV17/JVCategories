@@ -1,0 +1,14 @@
+PODS:
+  - JVCategories (0.1.0)
+
+DEPENDENCIES:
+  - JVCategories (from `../`)
+
+EXTERNAL SOURCES:
+  JVCategories:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JVCategories: 7b544c2f01026fcd4427da23c3e68bbd54475d16
+
+COCOAPODS: 0.39.0
