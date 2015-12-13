@@ -7,23 +7,32 @@
 //
 
 #import "JVViewController.h"
+#import "JVCategories.h"
+
 
 @interface JVViewController ()
 
 @end
+
 
 @implementation JVViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSArray *colors = @[[UIColor yellowColor],
+                        [UIColor orangeColor]];
+    [self.view addGradientToViewWithColors:colors];
+    
+    [NSDictionary parseJSONFileWithFileName:@"" withType:@""];
 }
+
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
 }
 
 @end

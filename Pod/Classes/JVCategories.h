@@ -1,6 +1,14 @@
-#import <UIKit/UIKit.h>
+//
+//  JVCategories.h
+//  Pods
+//
+//  Created by Jorge Valbuena on 2015-12-12.
+//
+//
 
-#import "JVDefines.h"
+#ifndef JVCategories_h
+#define JVCategories_h
+
 #import "NSDictionary+JVAddons.h"
 #import "NSObject+JVAddons.h"
 #import "NSString+JVAddons.h"
@@ -14,8 +22,5 @@
 #import "UIScrollView+JVAddons.h"
 #import "UIView+JVAddons.h"
 #import "UIViewController+JVAddons.h"
-#import "JVCategories.h"
 
-FOUNDATION_EXPORT double JVCategoriesVersionNumber;
-FOUNDATION_EXPORT const unsigned char JVCategoriesVersionString[];
-
+#endif /* JVCategories_h */
