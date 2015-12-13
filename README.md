@@ -8,6 +8,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
+iOS 8+
+
 ## Installation
 
 JVCategories is available through [CocoaPods](http://cocoapods.org). To install
