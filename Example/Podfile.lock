@@ -6,9 +6,11 @@ DEPENDENCIES:
 
 EXTERNAL SOURCES:
   JVCategories:
-    :path: "../"
+    :path: ../
 
 SPEC CHECKSUMS:
-  JVCategories: 7b544c2f01026fcd4427da23c3e68bbd54475d16
+  JVCategories: d5c8b8ebb0b245c0fadce0c942ad02773fdb1095
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 221415c775bcf26e4349618a80d7ef282f984fe8
+
+COCOAPODS: 1.2.0

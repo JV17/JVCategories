@@ -2,18 +2,18 @@
   "name": "JVCategories",
   "version": "0.1.0",
   "summary": "A short description of JVCategories.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/JVCategories",
+  "description": "A set of Objc categories with utilities functions.",
+  "homepage": "https://github.com/JV17/JVCategories",
   "license": "MIT",
   "authors": {
-    "Jorge Valbuena": "jorgevalbuena2@gmail.com"
+    "Jorge Valbuena": "jorge.valbuena@jorgedeveloper.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/JVCategories.git",
+    "git": "https://github.com/JV17/JVCategories.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "7.0"
+    "ios": "8.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
