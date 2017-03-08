@@ -17,9 +17,8 @@
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
-  "resource_bundles": {
-    "JVCategories": [
-      "Pod/Assets/*.png"
-    ]
-  }
+  "resources": [
+    "Pod/Assets/*.png"
+  ],
+  "public_header_files": "Pod/Classes/**/*.h"
 }
