@@ -7,7 +7,7 @@
 //
 
 #import "JVViewController.h"
-#import "JVCategories.h"
+#import <JVCategories/JVCategories.h>
 
 
 @interface JVViewController ()
