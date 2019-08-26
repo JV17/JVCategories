@@ -7,37 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		082E4FA0BE07129203A5FF66BBBA23C2 /* UIDevice+JVAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = C941888D12C832A9CA115C08CA2AD658 /* UIDevice+JVAddons.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		0CA97B198C4E12FEB97F206CB7839327 /* UIScrollView+JVAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = 8397DFFFF1875C5109F36636309DAE40 /* UIScrollView+JVAddons.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1137457C2E34758ACB762F45BA27F572 /* JVDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 741153DDCC3D18777BE7947E3ACC3897 /* JVDefines.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		14B2E5AA96930984B12B896FC5447D38 /* NSString+JVAddons.h in Headers */ = {isa = PBXBuildFile; fileRef = 80C36C237FDC3F9C23A4D32CFF869BD0 /* NSString+JVAddons.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1E85CEEEE11228FF1C364845BB1DB66C /* JVCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B2383D9EFAC72DB92A4E92973FFBF5 /* JVCategories-dummy.m */; };
-		271E81137F0EB291E0676A641E2B1D16 /* NSString+JVAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A471A8F6AD46A63A9414B1F7F4680C /* NSString+JVAddons.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1A199942C8AE932D6DAA06A31A075614 /* NSObject+JVAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = 6188D27AA37184758150AC692DF4775B /* NSObject+JVAddons.m */; };
 		35AD9D3E8F8B231B807B17F2A40AEBFF /* Pods-JVCategories_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9DAFB2D1AC216FB2F63255D0474862A /* Pods-JVCategories_Example-dummy.m */; };
 		3A8CC370F50590337E47D75A80331C2E /* NSObject+JVAddons.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E5F7961CEAA5FC3660CF4680BAC56B /* NSObject+JVAddons.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3D8E182DE476D6E28054236DDE4F7E2B /* NSObject+JVAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = 6188D27AA37184758150AC692DF4775B /* NSObject+JVAddons.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		40AC973808A694165EDA8426853FFA85 /* UIView+JVAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5EB5AF345EAC3FE8115D5310A7E71F /* UIView+JVAddons.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3F68E776F0DE66433E4B0FBBE6DA009F /* UIViewController+JVAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DF24A86178DE97F9B7DD684A04938C /* UIViewController+JVAddons.m */; };
+		436C801D281F8D3850505BA5E21B889A /* UIScreen+JVAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = 6667907B335B77B01BC622BC7CBFFDA2 /* UIScreen+JVAddons.m */; };
 		4CB0CE1781BA9D7995B99A82E2714506 /* JVCategories.h in Headers */ = {isa = PBXBuildFile; fileRef = CEF17D0CE709D8C22222D9BEB18C4A0C /* JVCategories.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		4D6BE6823211A200427A6264339EB886 /* UIViewController+JVAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DF24A86178DE97F9B7DD684A04938C /* UIViewController+JVAddons.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		4DA003108A65B63D820F809DE034CEC7 /* UINavigationController+JVAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1DED0D558D080B3CB509F84ABFDBE7 /* UINavigationController+JVAddons.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4D8FE2F396C0AE00661608FDD8ACB95C /* UIColor+JVAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = D402979A77A458E4BE21B78C8DCDAAD5 /* UIColor+JVAddons.m */; };
+		4E6591BB26198A79EC86297013D32E33 /* UIView+JVAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F5EB5AF345EAC3FE8115D5310A7E71F /* UIView+JVAddons.m */; };
 		5437B1C61CF1161D780A4F93B0088648 /* Pods-JVCategories_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A85BB2F60891EF2EFDCB8C370C0CC22 /* Pods-JVCategories_Tests-dummy.m */; };
+		66D279AF1AE943516DE39B16233E33B8 /* UIImage+JVAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = 15860351A6AE2D66227254ACB7DEDB4A /* UIImage+JVAddons.m */; };
 		69A472275B37589B61BC2B2CEC54065E /* NSDictionary+JVAddons.h in Headers */ = {isa = PBXBuildFile; fileRef = 404060D866BF03401F4747EE9EC010BD /* NSDictionary+JVAddons.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		6EE3EB2C3EC104FCE22CBC61AF4EFE0F /* UIScreen+JVAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = 6667907B335B77B01BC622BC7CBFFDA2 /* UIScreen+JVAddons.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		76FCBCB18F99BA656847995ACFE214D3 /* UIColor+JVAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = D402979A77A458E4BE21B78C8DCDAAD5 /* UIColor+JVAddons.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7983F7D49A0F99B772E7B3BBEC1D2616 /* NSDictionary+JVAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = 547E01D8C38656A4453712AB26360A5B /* NSDictionary+JVAddons.m */; };
+		8053DF92BC469E76D033B2CF72FED982 /* JVCategories-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 04B2383D9EFAC72DB92A4E92973FFBF5 /* JVCategories-dummy.m */; };
 		8686C3DF46FAB028970290036E3AF766 /* UIScrollView+JVAddons.h in Headers */ = {isa = PBXBuildFile; fileRef = 68ED3B233DC6EC1F58E8377D9C041856 /* UIScrollView+JVAddons.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		960B030CCA34544C966B6BC926271080 /* UIImage+JVAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = 15860351A6AE2D66227254ACB7DEDB4A /* UIImage+JVAddons.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8C2E72BC093610ADE8B10296AFA4CB8F /* UIDevice+JVAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = C941888D12C832A9CA115C08CA2AD658 /* UIDevice+JVAddons.m */; };
+		9EF6627DB2BB4D7A6D7827139BD7B2D0 /* UINavigationController+JVAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1DED0D558D080B3CB509F84ABFDBE7 /* UINavigationController+JVAddons.m */; };
 		9FA5951AA4BC4267F8E1B0208F93932C /* UIFont+JVAddons.h in Headers */ = {isa = PBXBuildFile; fileRef = C92EE530CE630B4F409CAD1657ADC2CF /* UIFont+JVAddons.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A0EE922832DA68BA8F95F9E18F6CCAF7 /* UINavigationController+JVAddons.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B8BB7B138DAA5BD58465D184881D63F /* UINavigationController+JVAddons.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A8A61BCAA548F8908A4DF65D531CC007 /* UIColor+JVAddons.h in Headers */ = {isa = PBXBuildFile; fileRef = 667F32716E2D8E3C51D692D7D05AA3D9 /* UIColor+JVAddons.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		AEAC8EF9DA67FA13FC0D3F6B24B9C954 /* UIDevice+JVAddons.h in Headers */ = {isa = PBXBuildFile; fileRef = DB9E145D97598BF30A02180DC4555980 /* UIDevice+JVAddons.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		BB57C74D07676A7ABA42CD762E9449FF /* UIViewController+JVAddons.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A0941F5B26530F2AC0455A4D8722BD2 /* UIViewController+JVAddons.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		C23B8E57B192804693212C571E926938 /* UILabel+JVAddons.h in Headers */ = {isa = PBXBuildFile; fileRef = EF0438FDB95328FB4258982F8552289F /* UILabel+JVAddons.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C3113363A8720DF5E9BDFA2FC67B1204 /* UIFont+JVAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = D220AACCC7B8996DB25C7B6323E69585 /* UIFont+JVAddons.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C30171F70BEE1064E819BE673367B47D /* NSString+JVAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = 65A471A8F6AD46A63A9414B1F7F4680C /* NSString+JVAddons.m */; };
 		D0F22F47CCCDE7C71E434DA6CECD6E9A /* UIImage+JVAddons.h in Headers */ = {isa = PBXBuildFile; fileRef = AC3B124F90BAF365F688CC0057CD6323 /* UIImage+JVAddons.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D352C994464E53D48CDFF8C17DC6A4AB /* UIScreen+JVAddons.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CBB91389D568882F5CA441E49BCC4CC /* UIScreen+JVAddons.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D7197C9AC7E3E991D4CF0EA67F00C68E /* UIView+JVAddons.h in Headers */ = {isa = PBXBuildFile; fileRef = F951A6780663CC0B646658B117C9F2F9 /* UIView+JVAddons.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		D8EB995D12172FE9088B1D9F61C36BAE /* UILabel+JVAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE22DA0A5B50BE9296A70FB015E4913 /* UILabel+JVAddons.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
-		E270230E55FE25D73436EF00EA24FDE9 /* NSDictionary+JVAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = 547E01D8C38656A4453712AB26360A5B /* NSDictionary+JVAddons.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E7F3F4C30310AFE8CA1430063D5D5B7D /* UILabel+JVAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = BFE22DA0A5B50BE9296A70FB015E4913 /* UILabel+JVAddons.m */; };
+		FAFA16B3CA8174050B289CD549BBBAD0 /* UIFont+JVAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = D220AACCC7B8996DB25C7B6323E69585 /* UIFont+JVAddons.m */; };
+		FBA154229B6751FFC2F2F4A42D11A6F5 /* UIScrollView+JVAddons.m in Sources */ = {isa = PBXBuildFile; fileRef = 8397DFFFF1875C5109F36636309DAE40 /* UIScrollView+JVAddons.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -472,7 +472,7 @@
 			buildConfigurationList = B01164220FAC5BC6F3AFC62F55F4643D /* Build configuration list for PBXNativeTarget "JVCategories" */;
 			buildPhases = (
 				6A7A4ACF69C0E0F2459A8D0884AF63D6 /* Headers */,
-				C0403BCBD81FC79182EF6C1A2BC93999 /* Sources */,
+				C4DFD2FD720229AC0C7DCC07FAC423A0 /* Sources */,
 				9E930BAD17DB9467006C27CE1D5141B7 /* Frameworks */,
 			);
 			buildRules = (
@@ -529,24 +529,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C0403BCBD81FC79182EF6C1A2BC93999 /* Sources */ = {
+		C4DFD2FD720229AC0C7DCC07FAC423A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E85CEEEE11228FF1C364845BB1DB66C /* JVCategories-dummy.m in Sources */,
-				E270230E55FE25D73436EF00EA24FDE9 /* NSDictionary+JVAddons.m in Sources */,
-				3D8E182DE476D6E28054236DDE4F7E2B /* NSObject+JVAddons.m in Sources */,
-				271E81137F0EB291E0676A641E2B1D16 /* NSString+JVAddons.m in Sources */,
-				76FCBCB18F99BA656847995ACFE214D3 /* UIColor+JVAddons.m in Sources */,
-				082E4FA0BE07129203A5FF66BBBA23C2 /* UIDevice+JVAddons.m in Sources */,
-				C3113363A8720DF5E9BDFA2FC67B1204 /* UIFont+JVAddons.m in Sources */,
-				960B030CCA34544C966B6BC926271080 /* UIImage+JVAddons.m in Sources */,
-				D8EB995D12172FE9088B1D9F61C36BAE /* UILabel+JVAddons.m in Sources */,
-				4DA003108A65B63D820F809DE034CEC7 /* UINavigationController+JVAddons.m in Sources */,
-				6EE3EB2C3EC104FCE22CBC61AF4EFE0F /* UIScreen+JVAddons.m in Sources */,
-				0CA97B198C4E12FEB97F206CB7839327 /* UIScrollView+JVAddons.m in Sources */,
-				40AC973808A694165EDA8426853FFA85 /* UIView+JVAddons.m in Sources */,
-				4D6BE6823211A200427A6264339EB886 /* UIViewController+JVAddons.m in Sources */,
+				8053DF92BC469E76D033B2CF72FED982 /* JVCategories-dummy.m in Sources */,
+				7983F7D49A0F99B772E7B3BBEC1D2616 /* NSDictionary+JVAddons.m in Sources */,
+				1A199942C8AE932D6DAA06A31A075614 /* NSObject+JVAddons.m in Sources */,
+				C30171F70BEE1064E819BE673367B47D /* NSString+JVAddons.m in Sources */,
+				4D8FE2F396C0AE00661608FDD8ACB95C /* UIColor+JVAddons.m in Sources */,
+				8C2E72BC093610ADE8B10296AFA4CB8F /* UIDevice+JVAddons.m in Sources */,
+				FAFA16B3CA8174050B289CD549BBBAD0 /* UIFont+JVAddons.m in Sources */,
+				66D279AF1AE943516DE39B16233E33B8 /* UIImage+JVAddons.m in Sources */,
+				E7F3F4C30310AFE8CA1430063D5D5B7D /* UILabel+JVAddons.m in Sources */,
+				9EF6627DB2BB4D7A6D7827139BD7B2D0 /* UINavigationController+JVAddons.m in Sources */,
+				436C801D281F8D3850505BA5E21B889A /* UIScreen+JVAddons.m in Sources */,
+				FBA154229B6751FFC2F2F4A42D11A6F5 /* UIScrollView+JVAddons.m in Sources */,
+				4E6591BB26198A79EC86297013D32E33 /* UIView+JVAddons.m in Sources */,
+				3F68E776F0DE66433E4B0FBBE6DA009F /* UIViewController+JVAddons.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

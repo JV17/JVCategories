@@ -1,8 +1,8 @@
 {
   "name": "JVCategories",
   "version": "1.0",
-  "summary": "A short description of JVCategories.",
-  "description": "A set of Objc categories with utilities functions.",
+  "summary": "A set of Objective-C categories with utilities functions.",
+  "description": "JVCategories contains a wide variaty of helper functions of different Objective-C classes.",
   "homepage": "https://github.com/JV17/JVCategories",
   "license": "MIT",
   "authors": {
@@ -17,8 +17,5 @@
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",
-  "resources": [
-    "Pod/Assets/*.png"
-  ],
   "public_header_files": "Pod/Classes/**/*.h"
 }
