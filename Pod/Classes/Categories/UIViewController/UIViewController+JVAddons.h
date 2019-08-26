@@ -22,8 +22,8 @@
 /**
  *  Finds a view controller within the navigation controller
  *
- *  @param aController, the view controller to be found
- *  @param nav, the navigation controller to search for the view controller
+ *  @param aController the view controller to be found
+ *  @param nav the navigation controller to search for the view controller
  *
  *  @return returns a boolean if this view controller exits in the navigation controller
  */
@@ -39,7 +39,7 @@
 /**
  *  Gets the top view controller in the navigation controller
  *
- *  @param rootViewController, the application rootController to search for
+ *  @param rootViewController the application rootController to search for
  *
  *  @return the top view controller in the navigation controller hierarchy
  */

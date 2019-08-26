@@ -22,9 +22,7 @@
 /**
  *  Makes the navigation controller transparent
  *
- *  @param navigationController, the navigation controller to make transparent
- *
- *  @return n/a
+ *  @param navigationController the navigation controller to make transparent
  */
 + (void)makeNavigationControllerTransparent:(UINavigationController *)navigationController;
 

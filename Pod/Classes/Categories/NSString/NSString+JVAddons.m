@@ -54,7 +54,7 @@
 {
     if(SYSTEM_VERSION_LESS_THAN(iOS8_0))
     {
-        if (![self rangeOfString:str].location == NSNotFound)
+        if (!([self rangeOfString:str].location == NSNotFound))
         {
             return YES;
         }

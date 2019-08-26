@@ -16,7 +16,7 @@
 /**
  *  Gets the UIColor from a hex string
  *
- *  @param stringToConver, the string containing the hex color value
+ *  @param hexString the string containing the hex color value
  *
  *  @return a UIColor from the hex color string
  */
@@ -26,7 +26,7 @@
 /**
  *  Gets the UIColor from a RGBHex
  *
- *  @param hex, the UInt32 containing the RGBHex value
+ *  @param hex the UInt32 containing the RGBHex value
  *
  *  @return a UIColor from the RGBHex value
  */

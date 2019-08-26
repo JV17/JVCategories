@@ -132,6 +132,8 @@
 /**
  Applys a tint color blur effect to view.
  
+ @param tintColor
+    The tint color for the effect.
  @param view
     The view to apply the blur effect to.
  
