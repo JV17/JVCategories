@@ -26,6 +26,6 @@
  *
  *  @return the current screen orientation
  */
-+ (UIInterfaceOrientation) getScreenOrientation;
++ (UIInterfaceOrientation)getScreenOrientation;
 
 @end

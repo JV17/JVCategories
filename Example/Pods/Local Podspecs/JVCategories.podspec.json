@@ -1,6 +1,6 @@
 {
   "name": "JVCategories",
-  "version": "0.1.0",
+  "version": "1.0",
   "summary": "A short description of JVCategories.",
   "description": "A set of Objc categories with utilities functions.",
   "homepage": "https://github.com/JV17/JVCategories",
@@ -10,10 +10,10 @@
   },
   "source": {
     "git": "https://github.com/JV17/JVCategories.git",
-    "tag": "0.1.0"
+    "tag": "1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "11.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",

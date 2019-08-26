@@ -1,16 +1,16 @@
 PODS:
-  - JVCategories (0.1.0)
+  - JVCategories (1.0)
 
 DEPENDENCIES:
   - JVCategories (from `../`)
 
 EXTERNAL SOURCES:
   JVCategories:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  JVCategories: 7010fe5a234c2483e46b9398c688a975bbec9665
+  JVCategories: d39c87e799b17bfeac2269325ac0a594ab2020da
 
-PODFILE CHECKSUM: e1d41865b40a8e9250d39a609df1a10f871a3542
+PODFILE CHECKSUM: 36c7fb7d5d318c0f5eb7338f929ca0b1a00a9cf0
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.7.5
